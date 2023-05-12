@@ -26,5 +26,5 @@ NODE_SERVER.use("/api", APP_SERVER);
  */
 const port = process.env.PORT || 5000;
 NODE_SERVER.listen(port, "localhost", () => {
-  console.log("SERVER STARTED ON PORT", PORT);
+
 });
