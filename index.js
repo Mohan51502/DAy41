@@ -25,6 +25,6 @@ NODE_SERVER.use("/api", APP_SERVER);
  * PORT TO ACCEPT/SEND REQUEST/RESPONSE = 5000
  */
 const port = process.env.PORT || 5000;
-NODE_SERVER.listen(port, "localhost", () => {
+NODE_SERVER.listen(port,  () => {
 
 });
