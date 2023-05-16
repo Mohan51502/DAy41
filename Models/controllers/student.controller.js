@@ -2,7 +2,7 @@ const StudentRouter = require("express").Router();
 const StudentModel = require("../student.model");
 const {  } = require("../../app");
 
-StudentRouter.get("/", function (req, res, next) {
+StudentRouter.get("/student", function (req, res, next) {
   return res.status(200).json({
     message: "Student router working",
   });
