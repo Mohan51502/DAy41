@@ -1,7 +1,7 @@
 const MentorRouter = require("express").Router();
 const MentorModel = require("../mentor.model");
 
-MentorRouter.get("/", function (req, res, next) {
+MentorRouter.get("/mentor", function (req, res, next) {
   return res.status(200).json({
     message: "Teacher router working",
   });
