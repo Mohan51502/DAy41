@@ -18,7 +18,7 @@ require("./dbconfig");
 /**
  * ATTACHING APP_SERVER TO NODE_SERVER
  */
-NODE_SERVER.use("/api", APP_SERVER);
+NODE_SERVER.use("/", APP_SERVER);
 
 /**
  * CONFIGURE NODE SERVER
